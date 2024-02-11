@@ -16,11 +16,6 @@
     "on-click": "hyprctl dispatch killactive",
     "tooltip": false
   },
-  "custom/togglesplit": {
-    "format": "\uF009",
-    "on-click": "hyprctl dispatch togglesplit",
-    "tooltip": false
-  },
   "custom/toggle-osk": {
     "format": "⌨",
     "on-click": "/home/steph/.config/hypr/waybar/scripts/toggle-wvkbd.sh",
@@ -34,6 +29,11 @@
   "custom/browser": {
     "format": "",
     "on-click": "firefox",
+    "tooltip": false
+  },
+  "custom/togglesplit": {
+    "format": "\uF009",
+    "on-click": "hyprctl dispatch togglesplit",
     "tooltip": false
   },
   "custom/resize-vert-bigger": {
@@ -55,6 +55,16 @@
     "format": "\uDB81\uDF2F",
     "on-click": "hyprctl dispatch resizeactive 0 -50",
     "tooltip": false
+  },
+  "group/layout": {
+    "orientation": "vertical",
+    "modules": [
+      "custom/togglesplit",
+      "custom/resize-vert-bigger",
+      "custom/resize-vert-smaller",
+      "custom/resize-horiz-bigger",
+      "custom/resize-horiz-smaller"
+    ]
   },
   "custom/to-ws-1": {
     "format": "\uDB83\uDF0F",

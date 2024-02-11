@@ -1,6 +1,6 @@
 * {
     border: none;
-    border-radius: 10;
+    border-radius: 10px;
     font-family: "JetbrainsMono Nerd Font" ;
     font-size: 15px;
     min-height: 10px;
@@ -25,29 +25,29 @@ window#waybar.hidden {
 }
 #workspaces {
     margin-top: 6px;
-    margin-left: 12px;
+    margin-left: 5px;
     font-size: 4px;
     margin-bottom: 0px;
     border-radius: 10px;
-    background-color: #42336c;
+    background-color: #282a36;
     transition: none;
 }
 
 #workspaces button {
-    color: #B5E8E0;
+    color: #44475a;
     background: transparent;
 }
 
 #workspaces button:hover {
-    color: #E8A2AF;
+    color: #8be9fd;
 }
 
 #workspaces button.active {
-    color: #bd64e1;
+    color: #bd93f9;
 }
 
 #workspaces button.urgent {
-    color: #e74771;
+    color: #ff5555;
 }
 
 #network {
@@ -58,8 +58,8 @@ window#waybar.hidden {
     margin-bottom: 0px;
     border-radius: 10px;
     transition: none;
-    color: #161320;
-    background: #bd93f9;
+    color: #282a36;
+    background: #ffb86c;
 }
 
 #pulseaudio {
@@ -71,7 +71,7 @@ window#waybar.hidden {
     border-radius: 10px;
     transition: none;
     color: #1A1826;
-    background: #FAE3B0;
+    background: #f1fa8c;
 }
 
 #battery {
@@ -82,18 +82,18 @@ window#waybar.hidden {
     margin-bottom: 0px;
     border-radius: 10px;
     transition: none;
-    color: #161320;
-    background: #B5E8E0;
+    color: #282a36;
+    background: #ff79c6;
 }
 
 #battery.charging, #battery.plugged {
-    color: #161320;
+    color: #282a36;
     background-color: #69beee;
 }
 
 #battery.critical:not(.charging) {
     background-color: #B5E8E0;
-    color: #161320;
+    color: #282a36;
     animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: linear;
@@ -115,8 +115,8 @@ window#waybar.hidden {
     margin-bottom: 0px;
     border-radius: 10px;
     transition: none;
-    color: #161320;
-    background: #069bee;
+    color: #282a36;
+    background: #8be9fd;
 }
 #backlight {
     margin-top: 6px;
@@ -127,8 +127,8 @@ window#waybar.hidden {
     margin-bottom: 0px;
     border-radius: 10px;
     transition: none;
-    color: #161320;
-    background: #F8BD96;
+    color: #282a36;
+    background: #bd93f9;
 }
 #custom-backlight-minus {
     margin-top: 3px;
@@ -148,8 +148,8 @@ window#waybar.hidden {
     margin-bottom: 0px;
     border-radius: 10px;
     transition: none;
-    color: #161320;
-    background: #ABE9B3;
+    color: #282a36;
+    background: #6272a4;
     /*background: #1A1826;*/
 }
 
@@ -161,7 +161,7 @@ window#waybar.hidden {
     padding-right: 10px;
     border-radius: 10px;
     transition: none;
-    color: #161320;
+    color: #282a36;
     background: #DDB6F2;
 }
 #cpu {
@@ -172,7 +172,7 @@ window#waybar.hidden {
     padding-right: 10px;
     border-radius: 10px;
     transition: none;
-    color: #161320;
+    color: #282a36;
     background: #96CDFB;
 }
 
@@ -185,7 +185,7 @@ window#waybar.hidden {
     border-radius: 10px;
     transition: none;
     color: #B5E8E0;
-    background: #161320;
+    background: #282a36;
 }
 
 #custom-launcher {
@@ -197,7 +197,7 @@ window#waybar.hidden {
     border-radius: 10px;
     transition: none;
     color: #89DCEB;
-    background: #161320;
+    background: #282a36;
 }
 
 #custom-exit {
@@ -210,8 +210,22 @@ window#waybar.hidden {
     margin-bottom: 0px;
     border-radius: 10px;
     transition: none;
-    color: #161320;
-    background: #F28FAD;
+    color: #282a36;
+    background: #ff5555;
+}
+
+#custom-toggle-leftbar {
+    font-size: 20px;
+    margin-top: 6px;
+    margin-left: 8px;
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 15px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    transition: none;
+    color: #282a36;
+    background: #f8f8f2;
 }
 
 #custom-cliphist {
@@ -224,8 +238,8 @@ window#waybar.hidden {
     margin-bottom: 0px;
     border-radius: 10px;
     transition: none;
-    color: #161320;
-    background: #fcc5bd;
+    color: #282a36;
+    background: #50fa7b;
 }
 
 #custom-wallpaper {
@@ -236,7 +250,7 @@ window#waybar.hidden {
     margin-bottom: 0px;
     border-radius: 10px;
     transition: none;
-    color: #161320;
+    color: #282a36;
     background: #C9CBFF;
 }
 
@@ -248,7 +262,7 @@ window#waybar.hidden {
     margin-bottom: 0px;
     border-radius: 10px;
     transition: none;
-    color: #161320;
+    color: #282a36;
     background: #E8A2AF;
 }
 
@@ -260,6 +274,6 @@ window#waybar.hidden {
     margin-bottom: 0px;
     border-radius: 10px;
     transition: none;
-    color: #161320;
+    color: #282a36;
     background: #F2CDCD;
 }

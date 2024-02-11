@@ -11,11 +11,7 @@
     "modules-left": [
         "custom/toggle-osk",
         "custom/killactive",
-        "custom/togglesplit",
-        "custom/resize-vert-bigger",
-        "custom/resize-vert-smaller",
-        "custom/resize-horiz-bigger",
-        "custom/resize-horiz-smaller",
+        "group/layout",
         "custom/appmenu",
         "group/quicklinks",
         "wlr/taskbar",
