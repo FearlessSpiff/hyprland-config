@@ -1,0 +1,101 @@
+{
+  "wlr/taskbar": {
+    "orientation": "vertical",
+    "format": "{icon}",
+    "icon-size": 18,
+    "tooltip": false,
+    "on-click": "activate",
+    "on-click-middle": "close",
+    "rewrite": {
+      "Firefox Web Browser": "Firefox",
+      "Foot Server": "Terminal"
+    }
+  },
+  "custom/killactive": {
+    "format": "\uF05C",
+    "on-click": "hyprctl dispatch killactive",
+    "tooltip": false
+  },
+  "custom/togglesplit": {
+    "format": "\uF009",
+    "on-click": "hyprctl dispatch togglesplit",
+    "tooltip": false
+  },
+  "custom/toggle-osk": {
+    "format": "⌨",
+    "on-click": "/home/steph/.config/hypr/waybar/scripts/toggle-wvkbd.sh",
+    "tooltip": false
+  },
+  "custom/filemanager": {
+    "format": "",
+    "on-click": "dolphin",
+    "tooltip": false
+  },
+  "custom/browser": {
+    "format": "",
+    "on-click": "firefox",
+    "tooltip": false
+  },
+  "custom/resize-vert-bigger": {
+    "format": "\uDB81\uDF35",
+    "on-click": "hyprctl dispatch resizeactive 50 0",
+    "tooltip": false
+  },
+  "custom/resize-vert-smaller": {
+    "format": "\uDB81\uDF32",
+    "on-click": "hyprctl dispatch resizeactive -50 0",
+    "tooltip": false
+  },
+  "custom/resize-horiz-bigger": {
+    "format": "\uDB81\uDF38",
+    "on-click": "hyprctl dispatch resizeactive 0 50",
+    "tooltip": false
+  },
+  "custom/resize-horiz-smaller": {
+    "format": "\uDB81\uDF2F",
+    "on-click": "hyprctl dispatch resizeactive 0 -50",
+    "tooltip": false
+  },
+  "custom/to-ws-1": {
+    "format": "\uDB83\uDF0F",
+    "on-click": "hyprctl dispatch movetoworkspace 1",
+    "tooltip": false
+  },
+  "custom/to-ws-2": {
+    "format": "\uDB83\uDF10",
+    "on-click": "hyprctl dispatch movetoworkspace 2",
+    "tooltip": false
+  },
+  "custom/to-ws-3": {
+    "format": "\uDB83\uDF11",
+    "on-click": "hyprctl dispatch movetoworkspace 3",
+    "tooltip": false
+  },
+  "custom/to-ws-4": {
+    "format": "\uDB83\uDF12",
+    "on-click": "hyprctl dispatch movetoworkspace 4",
+    "tooltip": false
+  },
+  "custom/to-ws-5": {
+    "format": "\uDB83\uDF13",
+    "on-click": "hyprctl dispatch movetoworkspace 5",
+    "tooltip": false
+  },
+  "custom/appmenu": {
+    "format": "\uE712",
+    "on-click": "rofi -show drun -show-icons -replace",
+    "tooltip": false
+  },
+
+  "tray": {
+    "spacing": 10
+  },
+  "group/quicklinks": {
+    "orientation": "vertical",
+    "modules": [
+      "custom/filemanager",
+      "custom/browser"
+    ]
+  }
+}
+

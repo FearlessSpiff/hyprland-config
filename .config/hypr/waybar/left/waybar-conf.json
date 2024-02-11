@@ -1,0 +1,32 @@
+{
+    "layer": "top",
+    "position": "left",
+    "margin-bottom": 0,
+    "margin-left": 0,
+    "margin-right": 0,    
+    "spacing": 0,
+
+    "include": ["~/.config/hypr/waybar/left/modules.json"],
+
+    "modules-left": [
+        "custom/toggle-osk",
+        "custom/killactive",
+        "custom/togglesplit",
+        "custom/resize-vert-bigger",
+        "custom/resize-vert-smaller",
+        "custom/resize-horiz-bigger",
+        "custom/resize-horiz-smaller",
+        "custom/appmenu",
+        "group/quicklinks",
+        "wlr/taskbar",
+        "custom/to-ws-1",
+        "custom/to-ws-2",
+        "custom/to-ws-3",
+        "custom/to-ws-4",
+        "custom/to-ws-5"
+    ],
+
+    "modules-center": [
+    ]
+}
+

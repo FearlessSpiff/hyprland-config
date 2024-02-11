@@ -1,0 +1,27 @@
+{
+  "layer": "top",
+  "margin-bottom": 0,
+  "margin-left": 0,
+  "margin-right": 0,
+  "spacing": 0,
+  "include": [
+    "~/.config/hypr/waybar/top/modules.json"
+  ],
+  "modules-left": [
+    "custom/toggle-leftbar",
+    "hyprland/workspaces"
+  ],
+  "modules-center": [
+  ],
+  "modules-right": [
+    "pulseaudio",
+    "group/backlight",
+    "battery",
+    "network",
+    "bluetooth",
+    "custom/cliphist",
+    "clock",
+    "custom/exit"
+  ]
+}
+
