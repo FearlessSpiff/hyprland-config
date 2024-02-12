@@ -12,6 +12,7 @@
     "hyprland/workspaces"
   ],
   "modules-center": [
+    "clock"
   ],
   "modules-right": [
     "pulseaudio",
@@ -20,7 +21,6 @@
     "network",
     "bluetooth",
     "custom/cliphist",
-    "clock",
     "custom/exit"
   ]
 }

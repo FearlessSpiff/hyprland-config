@@ -38,6 +38,17 @@ window#waybar.hidden {
     background: #8be9fd;
 }
 
+#custom-appmenu {
+    font-size: 24px;
+    padding-left: 6px;
+    padding-right: 12px;
+    margin: 6px 8px 0px;
+    border-radius: 10px;
+    transition: none;
+    color: #282a36;
+    background: #50fa7b;
+}
+
 #custom-killactive {
     font-size: 24px;
     margin-top: 6px;
@@ -86,4 +97,65 @@ window#waybar.hidden {
     transition: none;
     color: #282a36;
     background: #ff79c6;
+}
+
+#custom-to-ws-1 {
+    font-size: 22px;
+    padding-left: 6px;
+    padding-right: 12px;
+    margin: 6px 8px 0;
+    border-radius: 10px 10px 0 0;
+    transition: none;
+    color: #282a36;
+    background: #f1fa8c;
+}
+
+#custom-to-ws-2,
+#custom-to-ws-3,
+#custom-to-ws-4 {
+    font-size: 22px;
+    margin: 0 8px 0;
+    padding-top: 0;
+    padding-left: 9px;
+    padding-right: 12px;
+    border-radius: 0;
+    transition: none;
+    color: #282a36;
+    background: #f1fa8c;
+}
+
+#custom-to-ws-5 {
+    font-size: 22px;
+    padding-left: 9px;
+    padding-right: 12px;
+    margin: 0 8px 6px;
+    border-radius: 0 0 10px 10px;
+    transition: none;
+    color: #282a36;
+    background: #f1fa8c;
+}
+
+#custom-to-next-ws {
+    font-size: 22px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 6px;
+    margin-bottom: 0;
+    border-radius: 10px 10px 0 0;
+    transition: none;
+    color: #282a36;
+    background: #f1fa8c;
+}
+
+#custom-to-prev-ws {
+    font-size: 22px;
+    padding-left: 9px;
+    padding-right: 12px;
+    margin: 0 8px 0;
+    border-radius: 0 0 10px 10px;
+    transition: none;
+    color: #282a36;
+    background: #f1fa8c;
 }

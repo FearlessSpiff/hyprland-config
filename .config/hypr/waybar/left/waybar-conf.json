@@ -10,16 +10,11 @@
 
     "modules-left": [
         "custom/toggle-osk",
-        "custom/killactive",
-        "group/layout",
         "custom/appmenu",
-        "group/quicklinks",
-        "wlr/taskbar",
-        "custom/to-ws-1",
-        "custom/to-ws-2",
-        "custom/to-ws-3",
-        "custom/to-ws-4",
-        "custom/to-ws-5"
+        "custom/killactive",
+        "group/to-rel-ws",
+        "group/layout",
+
     ],
 
     "modules-center": [

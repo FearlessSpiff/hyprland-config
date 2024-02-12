@@ -66,6 +66,23 @@
       "custom/resize-horiz-smaller"
     ]
   },
+  "custom/to-next-ws": {
+    "format": "\uDB80\uDD3E",
+    "on-click": "hyprctl dispatch movetoworkspace +1",
+    "tooltip": false
+  },
+  "custom/to-prev-ws": {
+    "format": "\uDB80\uDD3D",
+    "on-click": "hyprctl dispatch movetoworkspace -1",
+    "tooltip": false
+  },
+  "group/to-rel-ws": {
+    "orientation": "vertical",
+    "modules": [
+      "custom/to-next-ws",
+      "custom/to-prev-ws"
+    ]
+  },
   "custom/to-ws-1": {
     "format": "\uDB83\uDF0F",
     "on-click": "hyprctl dispatch movetoworkspace 1",
@@ -91,8 +108,18 @@
     "on-click": "hyprctl dispatch movetoworkspace 5",
     "tooltip": false
   },
+  "group/to-ws": {
+    "orientation": "vertical",
+    "modules": [
+      "custom/to-ws-1",
+      "custom/to-ws-2",
+      "custom/to-ws-3",
+      "custom/to-ws-4",
+      "custom/to-ws-5"
+    ]
+  },
   "custom/appmenu": {
-    "format": "\uE712",
+    "format": "\uEB44",
     "on-click": "rofi -show drun -show-icons -replace",
     "tooltip": false
   },
