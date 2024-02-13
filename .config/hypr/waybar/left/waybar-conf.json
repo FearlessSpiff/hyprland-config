@@ -9,11 +9,11 @@
     "include": ["~/.config/hypr/waybar/left/modules.json"],
 
     "modules-left": [
-        "custom/toggle-osk",
         "custom/appmenu",
         "custom/killactive",
         "group/to-rel-ws",
         "group/layout",
+        "group/move"
 
     ],
 

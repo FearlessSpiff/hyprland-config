@@ -66,6 +66,41 @@
       "custom/resize-horiz-smaller"
     ]
   },
+  "custom/togglefloating": {
+    "format": "\uF08B",
+    "on-click": "hyprctl dispatch togglefloating",
+    "tooltip": false
+  },
+  "custom/move-right": {
+    "format": "\uEA9F",
+    "on-click": "hyprctl dispatch movewindow r",
+    "tooltip": false
+  },
+  "custom/move-left": {
+    "format": "\uEA9E",
+    "on-click": "hyprctl dispatch movewindow l",
+    "tooltip": false
+  },
+  "custom/move-up": {
+    "format": "\uEAA0",
+    "on-click": "hyprctl dispatch movewindow u",
+    "tooltip": false
+  },
+  "custom/move-down": {
+    "format": "\uEA9D",
+    "on-click": "hyprctl dispatch movewindow d",
+    "tooltip": false
+  },
+  "group/move": {
+    "orientation": "vertical",
+    "modules": [
+      "custom/togglefloating",
+      "custom/move-right",
+      "custom/move-left",
+      "custom/move-up",
+      "custom/move-down"
+    ]
+  },
   "custom/to-next-ws": {
     "format": "\uDB80\uDD3E",
     "on-click": "hyprctl dispatch movetoworkspace +1",

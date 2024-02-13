@@ -9,6 +9,7 @@
   ],
   "modules-left": [
     "custom/toggle-leftbar",
+    "custom/toggle-osk",
     "hyprland/workspaces"
   ],
   "modules-center": [

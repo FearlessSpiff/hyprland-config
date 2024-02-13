@@ -271,3 +271,14 @@ window#waybar.hidden {
     color: #282a36;
     background: #F2CDCD;
 }
+
+#custom-toggle-osk {
+    font-size: 24px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 6px 4px 0 4px;
+    border-radius: 7px;
+    transition: none;
+    color: #282a36;
+    background: #8be9fd;
+}

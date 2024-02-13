@@ -38,9 +38,9 @@
   },
   "custom/cliphist": {
     "format": "",
-    "on-click": "sleep 0.1 && ~/dotfiles/scripts/cliphist.sh",
-    "on-click-right": "sleep 0.1 && ~/dotfiles/scripts/cliphist.sh d",
-    "on-click-middle": "sleep 0.1 && ~/dotfiles/scripts/cliphist.sh w",
+    "on-click": "sleep 0.1 && ~/.config/hypr/cliphist.sh",
+    "on-click-right": "sleep 0.1 && ~/.config/hypr/cliphist.sh d",
+    "on-click-middle": "sleep 0.1 && ~/.config/hypr/cliphist.sh w",
     "tooltip": false
   },
   "custom/toggle-leftbar": {
@@ -146,6 +146,11 @@
     "format-icons": [
       "\uF111"
     ],
+    "tooltip": false
+  },
+  "custom/toggle-osk": {
+    "format": "⌨",
+    "on-click": "/home/steph/.config/hypr/waybar/scripts/toggle-wvkbd.sh",
     "tooltip": false
   }
 }
