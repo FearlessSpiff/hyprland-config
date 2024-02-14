@@ -111,12 +111,24 @@
   },
   "bluetooth": {
     "format": " {status}",
-    "format-disabled": "",
+    "format-disabled": "\uF294 {status}",
     "format-connected": " {num_connections}",
     "tooltip-format": "{controller_alias}\t{controller_address}",
     "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
     "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
     "on-click": "blueman-manager"
+  },
+  "custom/bluetoothtoggle": {
+    "format": " ",
+    "on-click": "rfkill toggle bluetooth",
+    "tooltip": false
+  },
+  "group/bluetooth": {
+    "orientation": "horizontal",
+    "modules": [
+      "bluetooth",
+      "custom/bluetoothtoggle"
+    ]
   },
   "group/backlight": {
     "orientation": "horizontal",

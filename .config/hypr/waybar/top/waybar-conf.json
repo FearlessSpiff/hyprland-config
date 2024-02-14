@@ -20,7 +20,7 @@
     "group/backlight",
     "battery",
     "network",
-    "bluetooth",
+    "group/bluetooth",
     "custom/cliphist",
     "custom/exit"
   ]
