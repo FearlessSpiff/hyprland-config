@@ -240,7 +240,7 @@ window#waybar.hidden {
 #custom-toggle-leftbar {
     font-size: 20px;
     padding-left: 10px;
-    padding-right: 15px;
+    padding-right: 16px;
     margin: 6px 2px 0 2px;
     border-radius: 7px;
     transition: none;
