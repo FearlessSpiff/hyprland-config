@@ -36,6 +36,10 @@
     },
     "separate-outputs": true
   },
+  "tray": {
+	"icon-size": 21,
+	"spacing": 10
+  },
   "custom/cliphist": {
     "format": "",
     "on-click": "sleep 0.1 && ~/.config/hypr/cliphist.sh",
@@ -50,7 +54,7 @@
   },
   "custom/exit": {
     "format": " ",
-    "on-click": "wleave",
+    "on-click": "bash ~/.config/rofi/leave.sh",
     "tooltip": false
   },
   "clock": {

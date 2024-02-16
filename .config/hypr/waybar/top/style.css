@@ -16,8 +16,8 @@ window#waybar.hidden {
 
 #window {
     margin-top: 6px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0;
+    padding-right: 0;
     border-radius: 7px;
     transition: none;
     color: transparent;
@@ -226,10 +226,10 @@ window#waybar.hidden {
 #custom-exit {
     font-size: 20px;
     margin-top: 6px;
-    margin-left: 8px;
-    margin-right: 8px;
+    margin-left: 6px;
+    margin-right: 2px;
     padding-left: 10px;
-    padding-right: 5px;
+    padding-right: 2px;
     margin-bottom: 0;
     border-radius: 7px;
     transition: none;
@@ -241,7 +241,7 @@ window#waybar.hidden {
     font-size: 20px;
     padding-left: 10px;
     padding-right: 15px;
-    margin: 6px 5px 0 8px;
+    margin: 6px 2px 0 2px;
     border-radius: 7px;
     transition: none;
     color: #282a36;

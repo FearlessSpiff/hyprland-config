@@ -118,47 +118,11 @@
       "custom/to-prev-ws"
     ]
   },
-  "custom/to-ws-1": {
-    "format": "\uDB83\uDF0F",
-    "on-click": "hyprctl dispatch movetoworkspace 1",
-    "tooltip": false
-  },
-  "custom/to-ws-2": {
-    "format": "\uDB83\uDF10",
-    "on-click": "hyprctl dispatch movetoworkspace 2",
-    "tooltip": false
-  },
-  "custom/to-ws-3": {
-    "format": "\uDB83\uDF11",
-    "on-click": "hyprctl dispatch movetoworkspace 3",
-    "tooltip": false
-  },
-  "custom/to-ws-4": {
-    "format": "\uDB83\uDF12",
-    "on-click": "hyprctl dispatch movetoworkspace 4",
-    "tooltip": false
-  },
-  "custom/to-ws-5": {
-    "format": "\uDB83\uDF13",
-    "on-click": "hyprctl dispatch movetoworkspace 5",
-    "tooltip": false
-  },
-  "group/to-ws": {
-    "orientation": "vertical",
-    "modules": [
-      "custom/to-ws-1",
-      "custom/to-ws-2",
-      "custom/to-ws-3",
-      "custom/to-ws-4",
-      "custom/to-ws-5"
-    ]
-  },
   "custom/appmenu": {
     "format": "\uEB44",
     "on-click": "rofi -show drun -show-icons -replace",
     "tooltip": false
   },
-
   "tray": {
     "spacing": 10
   },
