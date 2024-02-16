@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -av ../.config ~/.config
+rsync -av ../.config/ ~/.config
